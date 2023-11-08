@@ -6,6 +6,7 @@ public class Quiz {
         Random random = new Random();
         Scanner input = new Scanner(System.in);
 
+
         char menu='y';
         do{
             int number = random.nextInt(10) + 1;
